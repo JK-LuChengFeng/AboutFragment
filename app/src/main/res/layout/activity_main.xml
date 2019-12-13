@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment相关使用"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_staticrefrence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="静态引用"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/btn_dynamicreference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态引用"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/btn_lifecycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="生命周期"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/btn_loadinglayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动态加载布局"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <Button
+        android:id="@+id/btn_news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fragment最佳实现--简易新闻页面"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+</LinearLayout>
